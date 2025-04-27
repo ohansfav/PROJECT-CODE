@@ -7,8 +7,8 @@ from keras._tf_keras.keras.preprocessing.image import ImageDataGenerator
 # Define constants
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
-TRAIN_DIR = 'path/to/train/directory'
-VALIDATION_DIR = 'path/to/validation/directory'
+TRAIN_DIR = 'c:/Users/ohanu/OneDrive/Desktop/unidel final project/PROJECT CODE/train'
+VALIDATION_DIR = 'c:/Users/ohanu/OneDrive/Desktop/unidel final project/PROJECT CODE/validation'
 
 # Data augmentation parameters
 datagen = ImageDataGenerator(
